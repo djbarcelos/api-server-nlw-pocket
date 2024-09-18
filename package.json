@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "tsx watch --env-file .env src/http/server.ts",
     "seed": "tsx --env-file .env src/db/seed.ts",
-    "start:db": "npx drizzle-kit studio"
+    "start:db": "npx drizzle-kit studio",
+    "format": "npx biome format"
   },
   "author": "",
   "license": "ISC",
